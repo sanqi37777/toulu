@@ -104,7 +104,7 @@ async function main() {
             uid = login.data.uid;
             memberComplexCode = login.data.memberComplexCode;
             memberId = login.data.memberID;
-            let open = await commonPost(' /ehomes-new/homeManager/api/share/corsToActicity',{
+            let open = await commonPost('/ehomes-new/homeManager/api/share/corsToActicity',{
                 "memberId": memberId,
                 "userId": uid,
                 "userType": "61",
