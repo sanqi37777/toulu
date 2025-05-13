@@ -499,7 +499,7 @@ async function pkPost(url,body) {
 async function textGet() {
     return new Promise(resolve => {
         const options = {
-            url: `https://www.yuanxiapi.cn/api/yiyan`,
+            url: `https://v1.jinrishici.com/rensheng.txt`,
             headers : {
             }
         }
